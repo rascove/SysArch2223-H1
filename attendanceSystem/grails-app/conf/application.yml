@@ -10,8 +10,8 @@ grails:
             events: false
 info:
     app:
-        name: '@info.app.name@'
-        version: '@info.app.version@'
+        name: 'Attendance System'
+        version: '1.0'
         grailsVersion: '@info.app.grailsVersion@'
 spring:
     jmx:
