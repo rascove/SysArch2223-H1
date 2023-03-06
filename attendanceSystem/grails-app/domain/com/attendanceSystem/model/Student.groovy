@@ -17,4 +17,6 @@ class Student
         name size: 5..100
         course size: 5..100
     }
+
+    static hasMany = [enrolments: Enrolment]
 }

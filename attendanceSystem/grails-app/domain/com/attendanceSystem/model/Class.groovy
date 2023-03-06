@@ -17,4 +17,7 @@ class Class
         className unique: true, size: 5..50
         location size: 5..30
     }
+
+    static hasMany = [enrolments: Enrolment,
+        schedules: Schedule]
 }
