@@ -8,7 +8,11 @@ class Attendance
             : ""
     }
 
-    static constraints = {}
+    static constraints =
+    {
+        schedule()
+        enrolment()
+    }
 
     static belongsTo = [schedule: Schedule, enrolment: Enrolment]
 }

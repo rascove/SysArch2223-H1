@@ -14,10 +14,10 @@ class Schedule
     {
         class_()
         dateTime()
-        duration min: 1
+        duration(min: 1)
     }
 
-    static belongsTo = [class_: com.attendanceSystem.model.Class]
+    static belongsTo = [class_: Class]
 
     static hasMany = [attendances: Attendance]
 }

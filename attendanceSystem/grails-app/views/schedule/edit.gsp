@@ -36,8 +36,11 @@
                         <fieldset class="form">
                             <f:with bean="schedule">
                                 <f:field property="class_"/>
-                                <f:field property="dateTime"><g:datePicker name="dateTime" value="${schedule?.dateTime}"/></f:field>
+                                <f:field property="dateTime">
+                                    <g:datePicker name="dateTime" value="${schedule?.dateTime}"/>
+                                </f:field>
                                 <f:field property="duration"/>
+                                <f:field property="attendances"/>
                             </f:with>
                         </fieldset>
                         <fieldset class="buttons">

@@ -13,9 +13,9 @@ class Student
 
     static constraints =
     {
-        studentID unique: true, size: 5..10
-        name size: 5..100
-        course size: 5..100, inList: ['BSc (Hons) Computing']
+        studentID(unique: true, size: 5..10)
+        name(size: 5..100)
+        course(size: 5..100, inList: ['BSc (Hons) Computing'])
     }
 
     static hasMany = [enrolments: Enrolment]

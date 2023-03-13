@@ -4,7 +4,7 @@ class Enrolment
 {
     String toString()
     {
-        return student ? student.name : ""
+        return student ? student.toString() : ""
     }
 
     static constraints =

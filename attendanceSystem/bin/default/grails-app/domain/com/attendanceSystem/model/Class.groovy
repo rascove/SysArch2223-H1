@@ -16,6 +16,8 @@ class Class
         location(size: 5..30)
         lecturer()
         module()
+        enrolments()
+        schedules()
     }
 
     static belongsTo = [lecturer: Lecturer,
